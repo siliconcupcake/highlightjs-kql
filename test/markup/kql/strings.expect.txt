@@ -1,0 +1,5 @@
+<span class="hljs-keyword">let</span> x <span class="hljs-operator">=</span> <span class="hljs-string">&quot;hello world&quot;</span>;
+<span class="hljs-keyword">let</span> y <span class="hljs-operator">=</span> <span class="hljs-string">&#x27;single quoted&#x27;</span>;
+<span class="hljs-keyword">let</span> z <span class="hljs-operator">=</span> <span class="hljs-string">@&quot;verbatim string&quot;</span>;
+<span class="hljs-keyword">let</span> w <span class="hljs-operator">=</span> <span class="hljs-string">h&quot;obfuscated string&quot;</span>;
+<span class="hljs-comment">// this is a comment</span>

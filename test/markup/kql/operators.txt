@@ -1,0 +1,5 @@
+StormEvents
+| where StartTime > ago(1d)
+| summarize count() by State
+| sort by count_ desc
+| take 5

@@ -1,0 +1,5 @@
+let x = "hello world";
+let y = 'single quoted';
+let z = @"verbatim string";
+let w = h"obfuscated string";
+// this is a comment

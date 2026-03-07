@@ -1,0 +1,18 @@
+StormEvents
+| where StartTime between (datetime(2007-01-01) .. datetime(2007-12-31))
+| where State == "FLORIDA"
+| summarize count() by EventType
+| sort by count_ desc
+| take 10
+| render barchart
+
+let cutoff = ago(1h);
+StormEvents
+| where StartTime > cutoff
+| project-away BeginLat, BeginLon
+| join kind=inner (
+    StormEvents | summarize TotalEvents = count() by State
+) on State
+
+// this is a comment
+print result = strcat("hello", " ", "world")

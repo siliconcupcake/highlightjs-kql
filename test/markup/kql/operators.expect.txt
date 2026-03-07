@@ -1,0 +1,5 @@
+StormEvents
+<span class="hljs-operator">|</span> <span class="hljs-keyword">where</span> StartTime <span class="hljs-operator">&gt;</span> <span class="hljs-built_in">ago</span>(<span class="hljs-number">1d</span>)
+<span class="hljs-operator">|</span> <span class="hljs-keyword">summarize</span> <span class="hljs-built_in">count</span>() <span class="hljs-keyword">by</span> State
+<span class="hljs-operator">|</span> <span class="hljs-keyword">sort</span> <span class="hljs-keyword">by</span> count_ <span class="hljs-keyword">desc</span>
+<span class="hljs-operator">|</span> <span class="hljs-keyword">take</span> <span class="hljs-number">5</span>
