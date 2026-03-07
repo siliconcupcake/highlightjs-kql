@@ -7,7 +7,7 @@ Kusto Query Language (KQL) syntax highlighting for [highlight.js](https://highli
 Kusto Query Language (KQL) is a read-only query language used to explore data in Azure Data Explorer, Azure Monitor (Log Analytics), Azure Sentinel, and other Microsoft services. It uses a pipe-based syntax similar to shell pipelines.
 
 Learn more: https://learn.microsoft.com/en-us/kusto/query/
-Grammar Reference: https://github.com/microsoft/Kusto-Query-Language
+<br>Grammar Reference: https://github.com/microsoft/Kusto-Query-Language
 
 ## Usage
 

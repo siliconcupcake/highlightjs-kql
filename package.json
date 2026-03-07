@@ -1,6 +1,6 @@
 {
   "name": "highlightjs-kql",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Kusto Query Language (KQL) syntax highlighting for highlight.js",
   "main": "src/languages/kql.js",
   "files": [
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/highlightjs/highlightjs-kql.git"
+    "url": "git+https://github.com/siliconcupcake/highlightjs-kql.git"
   },
   "keywords": [
     "kql",
@@ -28,9 +28,9 @@
   "author": "Nandha Kishore",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/highlightjs/highlightjs-kql/issues"
+    "url": "https://github.com/siliconcupcake/highlightjs-kql/issues"
   },
-  "homepage": "https://github.com/highlightjs/highlightjs-kql#readme",
+  "homepage": "https://github.com/siliconcupcake/highlightjs-kql#readme",
   "devDependencies": {
     "highlight.js": "^11.0.0"
   },
