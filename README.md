@@ -16,7 +16,9 @@ Learn more: https://learn.microsoft.com/en-us/kusto/query/
 ```html
 <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release/build/highlight.min.js"></script>
 <script src="dist/kql.min.js"></script>
-<script>hljs.highlightAll();</script>
+<script>
+  hljs.highlightAll();
+</script>
 ```
 
 ### Via npm
@@ -26,9 +28,9 @@ npm install highlightjs-kql
 ```
 
 ```javascript
-const hljs = require('highlight.js');
-const kql = require('highlightjs-kql');
-hljs.registerLanguage('kql', kql);
+const hljs = require("highlight.js");
+const kql = require("highlightjs-kql");
+hljs.registerLanguage("kql", kql);
 ```
 
 ### Example
@@ -42,6 +44,16 @@ StormEvents
 | take 10
 | render barchart
 ```
+
+## Local Demo
+
+A sample HTML file is included to preview the syntax highlighting locally.
+
+```bash
+npx http-server . -p 8080
+```
+
+Then open `http://localhost:8080/demo.html` in your browser.
 
 ## Development
 
